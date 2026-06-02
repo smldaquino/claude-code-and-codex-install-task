@@ -11,8 +11,9 @@ This repository documents the setup of two AI coding tools inside the Cursor IDE
 2. Installed Claude Code and authenticated with my Anthropic account.
 3. Installed Codex and authenticated with my OpenAI account.
 4. Created a GitHub account and a public repository.
-5. Wrote this README describing the tools, steps, and issues.
-6. Committed and pushed the changes to GitHub.
+5. Opened the repository in Cursor.
+6. Wrote this README describing the tools, steps, and issues.
+7. Committed and pushed the changes to GitHub.
 
 ## Issues Encountered and How I Solved Them
 
@@ -29,7 +30,6 @@ curl -fsSL https://claude.ai/install.sh | bash
 I then logged into my Anthropic account and tested the tool in the terminal by asking Claude to say "Hello world!", which it did — confirming the installation was working.
  
 ### Installing Codex
- 
 Since I also couldn't find Codex in the application, I reasoned it could be installed the same way as Claude Code. I asked Claude to give me the command for installing Codex. I then installed the Codex CLI by running:
  
 ```bash
@@ -39,6 +39,8 @@ npm install -g @openai/codex
 The first time I ran it, it opened an OpenAI login page, where I signed in with my account. After authenticating, Codex was ready to use. I tested it by asking it to say "Hello world!", which it did — confirming the installation was working.
  
 ### Creating the repository
+Finally, I created a GitHub account and a public repository named [claude-code-and-codex-install-task](https://github.com/smldaquino/claude-code-and-codex-install-task/tree/main), ticking the "Add a README file" box, which is the file you are now reading. I then cloned the repository within Cursor's agent view by running:
  
-Finally, I created a GitHub account and a public repository named [claude-code-and-codex-install-task](https://github.com/smldaquino/claude-code-and-codex-install-task/tree/main), ticking the "Add a README file" box, which is the file you are now reading.
- 
+```git@github.com:smldaquino/claude-code-and-codex-install-task.git```
+
+The agent then confirmed the repository was successfully cloned within Cursor, detailing its contents (the single README.md) and confirming its status as a documentation-only assignment repo.
